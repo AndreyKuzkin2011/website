@@ -6,3 +6,125 @@ body {
     color: #121212;
     background-color: lightgray;
 }
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.header {
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    text-align: center;
+    color: beige;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* навигация */
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #121212;
+    text-decoration: none;
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
+    background-color: #eee;
+}
+
+/* img */
+
+.photo-wrapper {
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+.sidebar-img {
+    width: 100%; /* Картинка внутри сайдбара растянется ровно по его ширине */
+    height: auto;
+    background: linear-gradient(to bottom, #000, #eee);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #000;
+    opacity: 0.8;
+    transition: opacity 0.1s linear;
+}
+
+.sidebar-img:hover {
+    opacity: 1;
+}
+
+/* city */
+
+.about-city {
+    text-align: center;
+}
+
+.city {
+    font-weight: bold;
+    color: beige;
+    margin: 0;
+    padding: 10px;
+    font-size: 22px;
+}
+
+/* article */
+
+.article-text {
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
