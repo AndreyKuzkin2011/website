@@ -34,6 +34,32 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 5px solid #00d2ff;
 }
 
+.header-second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #590000;
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    border-bottom: 5px solid #723535;
+}
+
+.header-third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px, 80px;
+    height: 150px;
+    background-color: #c25c18;
+    /* border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; */
+    border-bottom: 5px solid #ffac5f;
+}
+
 .logo {
   color: #ffffff;
   font-size: 22px;
@@ -114,6 +140,24 @@ h1, h2, h3, h4, h5, h6 {
   padding: 60px 20px;
 }
 
+.hero-second {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../site/img/nikolaev2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
+.hero-third {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../site/img/nikolaev3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 20px;
+}
+
 .hero-content {
   max-width: 800px; 
   margin: 0 auto;  
@@ -181,6 +225,38 @@ h1, h2, h3, h4, h5, h6 {
 .footer-title:hover {
     transform: translateY(-8px);
     border-bottom: 4px solid rgb(13, 120, 156);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer-title-second {
+    flex: 1;
+    background-color: #590000;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    border-bottom: 4px solid transparent;
+}
+
+.footer-title-second:hover {
+    transform: translateY(-8px);
+    border-bottom: 4px solid #723535;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.footer-title-third {
+    flex: 1;
+    background-color: #c25c18;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    border-bottom: 4px solid transparent; 
+}
+
+.footer-title-third:hover {
+    transform: translateY(-8px);
+    border-bottom: 4px solid #ffac5f;
     border-radius: 15px;
     cursor: pointer;
 }
