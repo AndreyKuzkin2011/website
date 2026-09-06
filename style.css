@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 5px solid #723535;
 }
 
+
 .header-third {
     display: flex;
     justify-content: space-between;
@@ -151,6 +152,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-third {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../site/img/nikolaev3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 60px 20px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
